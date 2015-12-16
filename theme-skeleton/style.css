@@ -1,0 +1,66 @@
+/*
+Theme Name: Theme Skeleton
+Author: GvidasR
+Author URI: https://github.com/GvidasR
+Description: Most cleanest wordpress theme skeleton for advanced developers
+Version: 1.0
+*/
+
+@import url("css/reset.css");
+@import url("css/meniu.css");
+
+html {}
+body{}
+#wrapper{
+	margin: 0 auto;
+	position:relative;
+	overflow:hidden;
+	width: FULL_CONTENT_WIDTH;
+}
+/* images aligment */
+img.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+img.alignright {
+	padding: 4px;
+	margin: 0 0 2px 7px;
+	display: inline;
+}
+img.alignleft {
+	padding: 4px;
+	margin: 0 7px 2px 0;
+	display: inline;
+}
+.alignright {
+	float: right;
+}
+.alignleft {
+	float: left;
+}	
+
+/*Navigation in categories*/
+.navigation{
+	float: left;
+	margin-top: 5px;
+	text-align: center;
+	width: FULL_NAVIGATION_SIZE;
+}
+.navigation li a,.navigation li a:hover,.navigation li.active a,.navigation li.disabled {
+	color: #fff;
+	text-decoration:none;
+}
+.navigation li {
+	display: inline;
+}
+.navigation li a,.navigation li a:hover,.navigation li.active a,.navigation li.disabled {
+	background-color: #PASSIVE_COLOR;
+	border-radius: 3px;
+	cursor: pointer;
+	padding: 12px;
+	padding: 0.75rem;
+}
+.navigation li a:hover,.navigation li.active a {
+	background-color: #ACTIVE_COLOR;
+}
