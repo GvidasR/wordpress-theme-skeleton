@@ -1,6 +1,6 @@
 ﻿<?php get_header(); ?>
 <?php if (have_posts()) : ?>
-    <h1><?php single_cat_title(''); ?></h1>
+    <h1><?php single_cat_title(''); ?> - custom category template for taxonomy id - 1</h1>
     <ul>
 	<?php while (have_posts()) : the_post(); ?>
 		<li>
